@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background: #F7F9F9 !important;
+}
+mark {
+    background-color:#1DA1F2;
+  }
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+
+}
+h2 {
+    font-family: 'Prata', serif;
+    font-weight: 300;
+    font-size: xx-large;
+}
+h3 {
+    font-family: 'Prata', serif;
+    font-weight: 100;
+}
+h4 {
+    font-family: 'Prata', serif;
+    font-weight: 30;
+    font-size: large;
+}
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 60;
+}
+a:link {
+    color: #FCF300;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:visited {
+    color: #FCF300;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: rgb(249, 138, 19);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }

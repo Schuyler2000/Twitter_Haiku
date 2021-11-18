@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHUYLER_WEBSITE</title>
+    {% load static %}
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'custom.css' %}"/>
+
+    <!-- GOOGLE FONTS -->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+
+
+<html>
+    <body>
+
+        <!-- THIS IS MY HEADER -->
+        <div class="jumbotron-fluid text-center bg-primary">
+            <br>
+                <h1 class="display-2  text-white">
+                    tweets to haikus
+                </h1>
+                <h3 class="text-light" style="font-style: italic;">
+                    a
+                    <a href="https://en.wikipedia.org/wiki/Schuyler_family">
+                        <span style="color: #FCF300">
+                            schuyler sloman
+                        </span> 
+                    </a>
+                    website
+                </h5>
+            <br>
+        </div>
+        
+        <br>
+        <!-- TWEETS/HAIKU -->
+
+        <div class="container">
+            <div class="row align-items-center">
+            <!-- TWEETS -->
+
+              <div class="col">
+                <div class="h-100 text-center p-3 border border-3 border-primary bg-light">
+                     <!-- TWEET1 -->
+                    <h4>
+                        {{tweet_1_A}} <span style="background-color: #f9f472">{{tweet_1_B}}</span> {{tweet_1_C}}
+                    </h4>
+                    <h5 style="font-style: italic;">
+                        -  @{{id1}} 
+                    </h5>
+                    <br><br>
+                     <!-- TWEET2 -->
+                    <h4>
+                        {{tweet_2_A}} <span style="background-color: #f9f472">{{tweet_2_B}}</span> {{tweet_2_C}}
+                    </h4>
+                    <h5 style="font-style: italic;">
+                        -  @{{id2}} 
+                    </h5>
+                    <br><br>
+                     <!-- TWEET3 -->
+                    <h4>
+                        {{tweet_3_A}} <span style="background-color: #f9f472">{{tweet_3_B}}</span> {{tweet_3_C}} 
+                    </h4>
+                    <h5 style="font-style: italic;">
+                        -  @{{id3}} 
+                    </h5>
+                </div>  
+              </div>
+
+
+            <!-- HAIKU -->
+              <div class="col">
+                <div">
+                    <h2>
+                        {{haiku1}}
+                    </h2>
+                    <h2>
+                        {{haiku2}}
+                    </h2>
+                    <h2>
+                        {{haiku3}}
+                    </h2>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <br><br>
+
+         <!-- ANYTHING ELSE I WANT TO ADD BELOW -->
+    
+</body>
+</html>

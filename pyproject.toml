@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "schuy_django"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.8"
+Django = "^3.2.4"
+tweepy = "^3.10.0"
+pysyllables = "^1.0.3"
+gunicorn = "^20.1.0"
+language-tool-python = "^2.6.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
